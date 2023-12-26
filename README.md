@@ -1,1 +1,1 @@
-##### [Live Link of the website](https://devhiteshk.github.io/simplotel_assignment/)
+ Live Link -> [click to view](https://devhiteshk.github.io/simplotel_assignment/)
