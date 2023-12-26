@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Simplotel Order Website</title>
+  </head>
+  <body>
+    <section class="hero-section">
+      <div id="mobile-menu" class="mobile-menu hidden">
+        <div class="close-menu">
+          <img
+            onclick="handleMenuOpen()"
+            src="./assets/xmark-solid.svg"
+            width="20px"
+            alt="close"
+          />
+        </div>
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Order</a>
+          </li>
+          <li>
+            <a href="#">Food</a>
+          </li>
+          <li>
+            <a href="#">Restaurant</a>
+          </li>
+          <li>
+            <a href="#">Testimonials</a>
+          </li>
+          <li>
+            <a href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+      <nav className="Navbar">
+        <div class="Navbar-items-container">
+          <div class="desktop-menu">
+            <ul>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">Order</a>
+              </li>
+              <li>
+                <a href="#">Food</a>
+              </li>
+              <li>
+                <a href="#">Restaurant</a>
+              </li>
+              <li>
+                <a href="#">Testimonials</a>
+              </li>
+              <li>
+                <a href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+
+          <div onclick="handleMenuOpen()" class="menu-button">
+            <img
+              width="30px"
+              src="./assets/menu-bar.png"
+              alt="menu button for small screens"
+            />
+          </div>
+        </div>
+      </nav>
+
+      <div class="hero">
+        <div class="hero-left">
+          <div class="hero-left-content">
+            <h1>LOREM IPSUM</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+              id est vitae dolor rhoncus tristique. Maecenas metus quam, rhoncus
+              euismod lorem in, sollicitudin viverra eros. Donec dictum luctus
+              quam ut tristique. Curabitur nec faucibus purus. Quisque congue
+              sem nec justo mollis, in tincidunt erat pretium. Sed pulvinar,
+              massa ac porta viverra.
+            </p>
+            <button>Click Me</button>
+          </div>
+        </div>
+        <div class="hero-right">
+          <img src="./assets/pexels-robin-stickel-70497.jpg" alt="hero image" />
+        </div>
+      </div>
+    </section>
+    <section class="section2">
+      <div class="section2-left">
+        <div class="section2-imageCont-left">
+          <img
+            src="./assets/pexels-rachel-claire-6752433.jpg"
+            alt="stag image hotels"
+            class="img1"
+          />
+          <img
+            src="./assets/pexels-eva-bronzini-6141651.jpg"
+            alt="street view"
+            class="img2"
+          />
+        </div>
+        <div class="section2-imageCont-right">
+          <img
+            src="./assets/pexels-mister-mister-3434523.jpg"
+            alt="food on table"
+            class="img3"
+          />
+        </div>
+      </div>
+
+      <div class="section2-right">
+        <div class="section2-right-content">
+          <h5>LOREM IPSUM</h5>
+          <h1>LOREM IPSUM SET ADEMIR</h1>
+          <div class="click-arrow">
+            <span>Click</span>
+            <img src="./assets/icons8-arrow-30.png" alt="arrow" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script>
+    const handleMenuOpen = () => {
+      menu = document.getElementById("mobile-menu");
+      menu.classList.toggle("hidden");
+    };
+  </script>
+</html>
